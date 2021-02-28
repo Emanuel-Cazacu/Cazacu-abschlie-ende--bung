@@ -14,7 +14,11 @@ namespace Cazacu_abschließende_Übung
 
                 return true;
             else
-            { return false; }
+            {
+                throw new GerätException("Noch nicht Vollgeladen");
+            }
+            // else
+            //{ return false; }
         }
     }
 }

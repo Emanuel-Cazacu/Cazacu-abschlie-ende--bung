@@ -6,7 +6,7 @@ namespace Cazacu_abschließende_Übung
 {
     public sealed class Handy : Gerät
     {
-        public override int Akkustand { get { return 77; } }
+        public override int Akkustand { get { return 100; } }
 
         public override bool Vollgeladen()
         {

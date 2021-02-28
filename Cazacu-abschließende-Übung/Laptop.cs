@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cazacu_abschließende_Übung
 {
-    class Laptop : Gerät
+    public sealed class Laptop : Gerät
     {
         public override int Akkustand { get { return 100; } }
 
